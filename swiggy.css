@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;    
+}
+.mainbody{
+    width: 100%;
+    height: 2420px;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.topsection{
+   position: absolute;
+   background-color: white;
+   width: 100%;
+    margin: 0;
+    height: 720px;
+}
+.topsectionleft{
+    
+    margin-top:0px;
+    margin-left: 10px;
+    height: 100%;
+    width:56.5%;
+}
+.topsectionright{
+    
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height:100%;
+    width: 43.5%;  
+}
+
+.topsectionright img{
+    
+    
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 63px;
+    height: 100px;
+    width: 500px;
+    
+}
+.navbar img{
+    width: 240px;
+    height: 150%;
+}   
+.login{
+    background-color: white;
+    position: absolute;
+    left: 626px;
+    top: 105px;
+    color: black;
+    border: none;
+    font-weight:bold;
+    font-size: 20px;
+}
+button:hover{
+    background-color: lightskyblue;
+    border: 3px solid black;
+    padding: 15px;
+}
+.signup{
+    position: absolute;
+    left: 720px;
+    top: 90px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    
+    padding: 15px 38px;
+}
+.head{
+    position: absolute;
+    color:#282c3f;
+    top: 215px;
+    margin-left: 42px;
+    font-size: 41px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sub-head{
+    color:#686b78;
+    font-size: 28px;
+    letter-spacing:2px;
+    margin-left: 40px;
+    position: absolute;
+    top: 285px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.flex-row{
+    position: absolute;
+    left: 16px;
+    top: 410px;
+    display: flex;
+    flex-direction: row ;
+    word-spacing: 2px;
+    height: 80px;
+    width: 880px;
+    
+
+}
+.search-box{
+    margin-left: 33px;
+    display: flex;
+    width: 620px;
+    height: 78px;
+    border: 1px solid #fc8019;
+    
+}
+.search-btn{
+    
+    width: 20%;
+    border: none;
+    background-color: #fc8019;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+.search-input{
+    height: 60px;
+    width: 70%;
+    border: none;
+    padding-left: 25px;
+    padding-top:7px;
+    outline: none;
+    font-size: 22px;
+    font-weight: 400;
+    color:#535665;
+    white-space: 1px;
+    letter-spacing: 1px;
+    
+}
+.locate-me{
+    position: absolute;
+    
+    width: 300px;
+    height: 77px;
+    margin-left:410PX;
+    border: none;
+    color:#535665;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: white;
+   transition: all 0.5s;
+   z-index: 1;
+    
+}
+.locate-me:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+
+}
+.sub-head10{
+    color: #a9abb2;
+    font-size: 18px;
+    position: absolute;
+    top: 510px;
+    left: 45px;
+    font-family:  sans-serif;
+    
+    
+}
+.flex-row2{
+    display: flex;
+    
+}
+.city{
+    position: absolute;
+    top: 545px;
+    left: 45px;
+    color:gray;
+    font-size: 20px;
+    font-family:sans-serif;
+    word-spacing: 1.5px;
+    line-height: 29px;
+    letter-spac
+
+}
+.B{
+    font-weight: bold;
+}
+
+.midsection{
+    position:absolute;
+    top: 720px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 540px;
+    background-color:rgb(44,29,23);   
+
+}
+.midsection img{
+    display: flex;
+    justify-content: space-between;
+
+    width: 180px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 125px;
+
+    
+    
+}
+.head-2{
+    margin-top: 65px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.sub-head-2{
+    color:#e0cbc1;
+    text-align: center;
+    margin-left:35px;
+    font-size: 21px;
+    }
+.bottomsection
+{
+    
+    position: absolute;
+    top: 1260px;
+    width: 100%;
+    display: flex;
+    float: right;
+    height:740px;
+    background-color:whitesmoke;
+    }
+    .img-1{
+        position: absolute;
+        margin-left: 680px;
+        display: flex;
+        float: right;
+        width: 530px;
+        height: 665px;
+    }
+    .img-2{
+        position: absolute;
+        margin-top:75px ;
+        margin-left:1150px ;
+        display: flex;
+        float: right;
+        width: 530px;
+        height: 665px;
+    }
+    .head-3{
+        font-size: 53px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 190px;
+        margin-left: 40px;
+        color:black;
+        font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    }
+    .sub-head-3{
+        margin-top: 20px;
+        margin-left:44px ;
+        color:#7e808c;
+        font-size: 28px;
+    }
+    .img-3{
+        position: absolute;
+        margin-top: 480px;
+        margin-left: 304px;
+        width: 20px;
+        height: 30px;
+    }
+    .img-4{
+        position: absolute;
+        margin-top: 480px;
+        margin-left: 40px;
+    }
+    .img-3 img{
+        width: 240px;
+        height: 70px;
+    }
+    .img-4 img{
+        width: 240px;
+        height: 70px;
+    }
+    .foot{
+        position: absolute;
+        width: 100%;
+        height: 660px;
+        margin-top: 2001px;
+        background-color:black;
+    }
+    .foot img{
+        height: 90px;
+        width: 270px;
+    }
+    .img-6{
+        position: absolute;
+        margin-left: 1365px;
+        margin-top: 220px;
+    }
+    .img-5{
+        position: absolute;
+        margin-left: 1365px;
+        margin-top: 90px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        color: white;
+        background-color: black;
+        position: absolute;
+        height: 580px;
+        width: 80%;
+        margin-top: 80px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+    .foot-1 {
+        margin-left: 40px;
+    }
+    .foot-2{
+        margin-left: 40px;
+    }
+    .foot-3{
+        margin-left: 60px;
+    }
+    .footer h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: gray;
+    }
+    .footer li{
+        font-size: 23px;
+         line-height: 50px;
+    }
+    
+    
